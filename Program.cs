@@ -20,3 +20,12 @@ if (X > 0 && Y > 0)
 
     else if (X > 0 && Y < 0) 
     {Console.WriteLine($" O ponto ({X}, {Y}) esta no quadrante IV.");}
+
+    if (X == 0 && Y < 0 || X == 0 && Y > 0 )
+    {Console.WriteLine($" O ponto ({X}, {Y}) esta sob o eixo Y");}
+
+    else if (Y == 0 && X < 0 || Y == 0 && X > 0 )
+    {Console.WriteLine($" O ponto ({X}, {Y}) esta sob o eixo X");}
+
+    else
+    {Console.Write("O ponto (0, 0) esta na origem.");}
